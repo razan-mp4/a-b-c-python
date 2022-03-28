@@ -1,0 +1,9 @@
+def taskFive(a, b, c):
+    if a < b < c:
+        print('a<b<с - this statement is true!')
+    if a > 0 or b > 0 or c > 0:
+        print('at least one number is positive')
+    if (a > 0 and b < 0 and c < 0) or (a < 0 and b > 0 and c < 0) or (a < 0 and b < 0 and c > 0):
+        print('only one number is positive!')
+print('\nTask 5')
+taskFive(2, 3, 4)
